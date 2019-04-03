@@ -1,7 +1,7 @@
 class AddColumns < ActiveRecord::Migration 
   
   def change 
-    add_colums 
+    add_column :grade 
     
   end 
   
